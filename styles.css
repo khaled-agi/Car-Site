@@ -8,3 +8,6 @@
 .market-rows>div{background:#fafbfc;padding:11px 12px;margin:3px 0;border-radius:8px;border-bottom:0}
 .analytics-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0}
 .analytics-strip>div{background:#f7f9fa;border:1px solid var(--line);border-radius:10px;padding:12px}
+
+/* Analytics + choropleth research UX */
+.metric-switch{display:flex;gap:6px;flex-wrap:wrap}.metric{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 10px;font-size:11px}.metric.active{background:var(--dark);color:#fff;border-color:var(--dark)}.metric:disabled{opacity:.42}.map-caption{margin-top:10px;padding:10px 12px;border-radius:9px;background:#f5f8f9;color:#66727e;font-size:11px}.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.kpi-card{border:1px solid var(--line);background:#f8fafb;border-radius:11px;padding:14px}.kpi-card small,.kpi-card b{display:block}.kpi-card small{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.05em}.kpi-card b{margin-top:7px;font-size:14px}.analytics-panel h3{margin-top:6px}.sales-head{background:#f6f8f9}@media(max-width:900px){.kpi-grid{grid-template-columns:repeat(2,1fr)}}
