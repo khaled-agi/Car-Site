@@ -115,3 +115,17 @@ window.ENGINE_INTEL=Object.assign({
 "4A-FE":{era:"1987–2000s, market dependent",summary:"High-volume economy-oriented A-series 1.6L used across Corolla and related platforms. Its business value comes from broad historic circulation rather than enthusiast pricing.",strengths:["Large historic Corolla application base","Simple naturally aspirated layout","Broad donor familiarity"],issues:["Valve-stem-seal wear and oil consumption at age","Dirty throttle/injectors can cause unstable running","Age-related seals, vacuum hoses and ignition components"],buy:["Compression test","Check oil consumption evidence","Inspect seals and vacuum hoses","Confirm donor year and accessories"]},
 "7A-FE":{era:"1990s–2000s, market dependent",summary:"1.8L A-series economy engine used in Corolla, Carina and Avensis applications. Primarily an aging-fleet replacement category.",strengths:["Simple naturally aspirated design","Used across several high-volume Toyota platforms"],issues:["Age-related oil leaks and oil consumption","Cooling and ignition condition should be verified"],buy:["Compression test","Cold start","Donor VIN/model year","Oil and coolant inspection"]}
 },window.ENGINE_INTEL||{});
+
+window.GLOBAL_RESEARCH_SOURCES=[
+{layer:"Toyota country sales",coverage:"Global",source:"Toyota Motor Corporation",use:"10-year country/region Toyota sales baseline",quality:"Primary"},
+{layer:"Vehicle parc",coverage:"Global / country",source:"OICA / national registration authorities",use:"Active vehicle fleet and survival calibration",quality:"Primary / industry"},
+{layer:"Model production",coverage:"Major global markets",source:"MarkLines",use:"Model-by-country production and market allocation",quality:"Industry"},
+{layer:"Europe registrations",coverage:"Europe",source:"ACEA + national authorities",use:"Country registrations, manufacturer and powertrain mix",quality:"Primary / industry"},
+{layer:"US reliability",coverage:"United States",source:"NHTSA",use:"Complaints, recalls and reliability signals",quality:"Government"},
+{layer:"Salvage",coverage:"US + export signal",source:"Copart",use:"Donor availability, damage, mileage and auction flow",quality:"Marketplace"}
+];
+window.ENGINE_ESTIMATE_METHOD={
+formula:"Historical fitted-vehicle sales × engine take rate × survival rate",
+rule:"Never treat Toyota brand or model sales as engine population without fitment allocation.",
+confidence:"Country estimates will carry source, year, lower/base/upper bounds and confidence."
+};
