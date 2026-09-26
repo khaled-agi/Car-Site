@@ -142,3 +142,16 @@ window.PUBLIC_FLEET_ANCHORS=[
 {country:"Jordan",vehicles:1130000,source:"OICA World Vehicles in Use",scope:"All vehicles",use:"Country fleet denominator"},
 {country:"Iraq",vehicles:3900000,source:"OICA World Vehicles in Use",scope:"All vehicles",use:"Country fleet denominator"}
 ];
+window.COUNTRY_ENGINE_MODEL=[
+["United States",331,1.00,"North America"],["Canada",40,0.82,"North America"],["Mexico",130,0.72,"Latin America"],
+["Brazil",216,0.68,"Latin America"],["Argentina",46,0.55,"Latin America"],["Chile",20,0.78,"Latin America"],["Peru",34,0.70,"Latin America"],["Colombia",52,0.62,"Latin America"],
+["Japan",124,1.00,"Japan"],["Australia",27,0.92,"Oceania"],["New Zealand",5.3,0.88,"Oceania"],
+["Saudi Arabia",37,0.95,"Middle East"],["United Arab Emirates",10,0.95,"Middle East"],["Oman",4.7,0.90,"Middle East"],["Jordan",11.5,0.78,"Middle East"],["Kuwait",4.4,0.92,"Middle East"],["Qatar",3.0,0.86,"Middle East"],["Bahrain",1.6,0.78,"Middle East"],["Iraq",46,0.72,"Middle East"],
+["United Kingdom",69,0.52,"Europe"],["Germany",84,0.42,"Europe"],["France",66,0.48,"Europe"],["Spain",49,0.52,"Europe"],["Italy",59,0.50,"Europe"],["Netherlands",18,0.44,"Europe"],["Belgium",12,0.42,"Europe"],["Poland",38,0.48,"Europe"],["Greece",10.4,0.62,"Europe"],
+["South Africa",63,0.90,"Africa"],["Kenya",56,0.88,"Africa"],["Ghana",35,0.76,"Africa"],["Nigeria",238,0.72,"Africa"],["Tanzania",69,0.82,"Africa"],["Uganda",50,0.80,"Africa"],["Egypt",117,0.58,"Africa"],["Morocco",38,0.55,"Africa"],
+["Thailand",72,1.00,"Southeast Asia"],["Indonesia",286,0.88,"Southeast Asia"],["Malaysia",36,0.82,"Southeast Asia"],["Philippines",118,0.78,"Southeast Asia"],["Vietnam",101,0.62,"Southeast Asia"],
+["Pakistan",255,0.78,"South Asia"],["India",1450,0.34,"South Asia"],["Bangladesh",175,0.55,"South Asia"],["Sri Lanka",22,0.80,"South Asia"],
+["China",1410,0.28,"East Asia"],["South Korea",52,0.18,"East Asia"],["Kazakhstan",20,0.74,"Central Asia"],["Georgia",3.8,0.82,"Central Asia"]
+];
+window.MODEL_VERSION="Global Engine Fleet Model v0.1";
+window.MODEL_DISCLOSURE="Modeled estimate, not registration count. Uses engine vehicle applications, engine era/status, Toyota market intensity and country scale. Replace with observed VIO/model registrations as licensed or public data is added.";
