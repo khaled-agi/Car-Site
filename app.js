@@ -1,3 +1,5 @@
+const ENGINES = window.ENGINES || [];
+const FAMILY_NOTES = window.FAMILY_NOTES || {};
 const $=s=>document.querySelector(s), content=$('#content'), search=$('#search');let view='dashboard',familyFilter='All',query='';
 const families=[...new Set(ENGINES.map(e=>e.family))];
 function setHead(t,s){$('#pageTitle').textContent=t;$('#pageSub').textContent=s}
