@@ -20,3 +20,5 @@
 #tabContent{min-height:460px}
 #tabContent>.panel,#tabContent>.two-col{animation:tabIn .16s ease-out}
 @keyframes tabIn{from{opacity:.35;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+.estimate-bands{display:flex;gap:6px;flex-wrap:wrap;margin:14px 0}.estimate-bands span{border:1px solid var(--line);background:#f7f9fa;border-radius:999px;padding:7px 10px;font-size:11px;font-weight:700}
