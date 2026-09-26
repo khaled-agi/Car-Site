@@ -92,7 +92,7 @@ window.MARKET_DATA={
 "1GD-FTV":[["Australia",-25.3,133.8,5,"Hilux · Prado"],["Saudi Arabia",23.9,45.1,5,"Hilux · Prado · Fortuner"],["United Arab Emirates",23.4,53.8,5,"Hilux · Prado · Fortuner"],["South Africa",-30.6,22.9,5,"Hilux · Fortuner"],["Thailand",15.8,100.9,5,"Hilux · Fortuner"],["Kenya",-0.02,37.9,4,"Hilux · Prado"],["Jordan",31.2,36.5,4,"Hilux · Prado"]],
 "1NZ-FE":[["Japan",36.2,138.3,5,"Vitz · Yaris donor supply"],["Jordan",31.2,36.5,5,"Yaris · Echo"],["Pakistan",30.4,69.3,4,"Vitz · small Toyota imports"],["Kenya",-0.02,37.9,4,"Vitz · Yaris"],["United Arab Emirates",23.4,53.8,4,"Yaris · re-export market"],["United Kingdom",55.4,-3.4,3,"Yaris"],["Australia",-25.3,133.8,3,"Yaris · Echo"]]
 };
-window.MARKET_DEFAULT=[["Japan",36.2,138.3,4,"Major Toyota donor/export market"],["United Arab Emirates",23.4,53.8,4,"Regional trading and re-export hub"],["United States",37.1,-95.7,3,"Large Toyota vehicle population"],["Australia",-25.3,133.8,3,"Toyota 4x4 and passenger fleet"],["Saudi Arabia",23.9,45.1,3,"Large Toyota market"]];
+window.MARKET_DEFAULT=[];
 
 window.RESEARCH_METRICS={
 "1GR-FE":{fleet:"Research pending",repair:"Research pending",salvage:"US feed feasible",age:"Research pending",confidence:"Building",sources:["Toyota vehicle sales","Copart salvage","NHTSA reliability"]},
