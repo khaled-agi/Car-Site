@@ -129,3 +129,16 @@ formula:"Historical fitted-vehicle sales × engine take rate × survival rate",
 rule:"Never treat Toyota brand or model sales as engine population without fitment allocation.",
 confidence:"Country estimates will carry source, year, lower/base/upper bounds and confidence."
 };
+window.ENGINE_MAP_MODEL={
+metric:"Estimated active vehicles",
+unit:"vehicles",
+method:"Historical fitted-vehicle sales × engine take rate × survival rate",
+bands:[0,5000,25000,100000,250000,500000],
+labels:["<5K","5K–25K","25K–100K","100K–250K","250K–500K","500K+"],
+status:"Model build in progress",
+note:"No 1–5 prominence scores should be interpreted as vehicle counts. Published estimates require fitment allocation."
+};
+window.PUBLIC_FLEET_ANCHORS=[
+{country:"Jordan",vehicles:1130000,source:"OICA World Vehicles in Use",scope:"All vehicles",use:"Country fleet denominator"},
+{country:"Iraq",vehicles:3900000,source:"OICA World Vehicles in Use",scope:"All vehicles",use:"Country fleet denominator"}
+];
